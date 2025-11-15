@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/9fa250cf9f32442ebb51ab13e777abd0/artifacts
+end_time: 1763237489124
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9fa250cf9f32442ebb51ab13e777abd0
+run_name: incongruous-newt-951
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763237485404
+status: 3
+tags: []
+user_id: rayen

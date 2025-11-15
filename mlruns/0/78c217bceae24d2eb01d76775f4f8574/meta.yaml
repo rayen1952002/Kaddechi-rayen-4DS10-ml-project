@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/78c217bceae24d2eb01d76775f4f8574/artifacts
+end_time: 1763237491538
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 78c217bceae24d2eb01d76775f4f8574
+run_name: bedecked-shrike-22
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763237489136
+status: 3
+tags: []
+user_id: rayen

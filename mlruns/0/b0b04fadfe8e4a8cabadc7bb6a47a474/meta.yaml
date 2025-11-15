@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/b0b04fadfe8e4a8cabadc7bb6a47a474/artifacts
+end_time: 1763237494163
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b0b04fadfe8e4a8cabadc7bb6a47a474
+run_name: carefree-shark-664
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763237491562
+status: 3
+tags: []
+user_id: rayen

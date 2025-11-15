@@ -2,18 +2,17 @@ name: ML Project CI/CD
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master ]
+    branches: [ main ]
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    
     strategy:
       matrix:
         python-version: [3.8, 3.9, 3.10]
-
+    
     steps:
     - uses: actions/checkout@v4
     
@@ -28,58 +27,51 @@ jobs:
         pip install -r requirements.txt
         pip install -r requirements-dev.txt
     
-    - name: Run tests with unittest
+    - name: Run tests with coverage
       run: |
-        python -m unittest discover tests/ -v
+        python -m pytest tests/ -v --cov=src --cov-report=xml
     
-    - name: Run tests with pytest
-      run: |
-        pytest tests/ -v
-    
-    - name: Generate coverage report
-      run: |
-        pytest tests/ --cov=src --cov-report=xml
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
 
   lint:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    
-    - name: Set up Python
-      uses: actions/setup-python@v4
+    - uses: actions/setup-python@v4
       with:
         python-version: "3.10"
     
-    - name: Install dependencies
+    - name: Install linting tools
       run: |
-        pip install black flake8 mypy
+        pip install black flake8 mypy pylint
     
-    - name: Check code formatting with black
-      run: |
-        black --check src/ tests/
+    - name: Check code formatting
+      run: black --check src/ tests/
     
     - name: Lint with flake8
-      run: |
-        flake8 src/ tests/ --count --show-source --statistics
+      run: flake8 src/ tests/ --max-line-length=88
+    
+    - name: Type checking
+      run: mypy src/
 
-  build:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Security scan
+      uses: safety-ci/safety-action@v1
+      with:
+        api-key: ${{ secrets.SAFETY_API_KEY }}
+
+  docker-build:
     needs: [test, lint]
     runs-on: ubuntu-latest
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master')
+    if: github.ref == 'refs/heads/main'
     
     steps:
     - uses: actions/checkout@v4
     
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: "3.10"
-    
-    - name: Install dependencies
+    - name: Build Docker image
       run: |
-        pip install -r requirements.txt
-    
-    - name: Create package artifact
-      run: |
-        mkdir -p dist
-        tar -czf dist/ml-project-$(date +%Y%m%d).tar.gz src/ requirements.txt
+        docker build -t ml-project:latest .

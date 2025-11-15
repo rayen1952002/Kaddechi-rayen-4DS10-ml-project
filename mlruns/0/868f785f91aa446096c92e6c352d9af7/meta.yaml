@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/868f785f91aa446096c92e6c352d9af7/artifacts
+end_time: 1763237491550
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 868f785f91aa446096c92e6c352d9af7
+run_name: beautiful-sheep-106
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763237491544
+status: 3
+tags: []
+user_id: rayen
