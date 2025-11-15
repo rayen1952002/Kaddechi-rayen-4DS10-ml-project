@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/d7c57d4038ee48eb9bb0d91d337f5630/artifacts
+end_time: 1763239396130
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d7c57d4038ee48eb9bb0d91d337f5630
+run_name: blushing-stoat-184
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239391664
+status: 3
+tags: []
+user_id: rayen

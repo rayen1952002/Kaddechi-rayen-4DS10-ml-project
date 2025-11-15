@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/7901a6bf80de4d63afbb57547aeb805f/artifacts
+end_time: 1763239449622
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7901a6bf80de4d63afbb57547aeb805f
+run_name: fortunate-stag-375
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239449613
+status: 3
+tags: []
+user_id: rayen

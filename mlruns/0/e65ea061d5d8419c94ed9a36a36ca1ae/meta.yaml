@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/e65ea061d5d8419c94ed9a36a36ca1ae/artifacts
+end_time: 1763239107258
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e65ea061d5d8419c94ed9a36a36ca1ae
+run_name: clean-newt-322
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239107250
+status: 3
+tags: []
+user_id: rayen

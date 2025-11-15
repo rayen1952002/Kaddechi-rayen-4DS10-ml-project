@@ -5,7 +5,11 @@ import joblib
 import os
 from prometheus_client import generate_latest, Counter, Histogram, REGISTRY
 import logging
-from data_processor import DataProcessor
+from src.data_processor import DataProcessor
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Prometheus metrics
 REQUEST_COUNT = Counter('api_requests_total', 'Total API requests', ['method', 'endpoint'])
@@ -37,9 +41,9 @@ async def startup_event():
         processor.generate_sample_data(1000, 5)
         processor.train_model()
         processor.save_model("models/model.pkl")
-        logging.info("Model trained and saved successfully")
+        logger.info("Model trained and saved successfully")
     except Exception as e:
-        logging.error(f"Startup error: {e}")
+        logger.error(f"Startup error: {e}")
 
 @app.get("/")
 async def root():
@@ -75,4 +79,13 @@ async def metrics():
 @app.get("/model/info")
 async def model_info():
     REQUEST_COUNT.labels(method='GET', endpoint='/model/info').inc()
-    return processor.get_data_summary()
+    try:
+        # Ensure data is loaded for the summary
+        if not processor._is_data_loaded:
+            processor.generate_sample_data(100, 5)
+        
+        info = processor.get_data_summary()
+        return info
+    except Exception as e:
+        logger.error(f"Error getting model info: {e}")
+        return {"error": f"Could not retrieve model information: {str(e)}"}

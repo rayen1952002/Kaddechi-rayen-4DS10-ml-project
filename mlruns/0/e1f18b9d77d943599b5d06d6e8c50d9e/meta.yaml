@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/e1f18b9d77d943599b5d06d6e8c50d9e/artifacts
+end_time: 1763239157449
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1f18b9d77d943599b5d06d6e8c50d9e
+run_name: smiling-grub-791
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239153669
+status: 3
+tags: []
+user_id: rayen

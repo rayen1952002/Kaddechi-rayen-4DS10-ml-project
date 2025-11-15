@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/734ac6d588ac42a9ac7a6f380ce83584/artifacts
+end_time: 1763239062681
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 734ac6d588ac42a9ac7a6f380ce83584
+run_name: dapper-panda-865
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239062668
+status: 3
+tags: []
+user_id: rayen

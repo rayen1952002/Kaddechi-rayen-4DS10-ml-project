@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/2ed913c8e9ed45318a32ed78faf7ace1/artifacts
+end_time: 1763239516936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ed913c8e9ed45318a32ed78faf7ace1
+run_name: useful-snake-432
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239516924
+status: 3
+tags: []
+user_id: rayen

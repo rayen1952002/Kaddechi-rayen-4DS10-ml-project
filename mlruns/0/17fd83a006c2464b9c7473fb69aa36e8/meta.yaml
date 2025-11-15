@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/17fd83a006c2464b9c7473fb69aa36e8/artifacts
+end_time: 1763239100885
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 17fd83a006c2464b9c7473fb69aa36e8
+run_name: chill-robin-333
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239097975
+status: 3
+tags: []
+user_id: rayen

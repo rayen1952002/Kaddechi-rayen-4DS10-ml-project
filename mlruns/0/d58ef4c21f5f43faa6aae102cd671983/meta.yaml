@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/d58ef4c21f5f43faa6aae102cd671983/artifacts
+end_time: 1763239077935
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d58ef4c21f5f43faa6aae102cd671983
+run_name: efficient-snipe-632
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239077925
+status: 3
+tags: []
+user_id: rayen

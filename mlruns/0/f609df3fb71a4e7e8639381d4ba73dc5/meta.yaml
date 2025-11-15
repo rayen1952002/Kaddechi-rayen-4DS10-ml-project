@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/f609df3fb71a4e7e8639381d4ba73dc5/artifacts
+end_time: 1763239097967
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f609df3fb71a4e7e8639381d4ba73dc5
+run_name: nervous-ant-999
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239094160
+status: 3
+tags: []
+user_id: rayen

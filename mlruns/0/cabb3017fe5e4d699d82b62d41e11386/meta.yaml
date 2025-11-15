@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/cabb3017fe5e4d699d82b62d41e11386/artifacts
+end_time: 1763239161059
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cabb3017fe5e4d699d82b62d41e11386
+run_name: auspicious-midge-333
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239161046
+status: 3
+tags: []
+user_id: rayen

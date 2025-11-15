@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/10682e94a401432ca7dae83db39c5b76/artifacts
+end_time: 1763239062629
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10682e94a401432ca7dae83db39c5b76
+run_name: fun-fowl-590
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239057188
+status: 3
+tags: []
+user_id: rayen

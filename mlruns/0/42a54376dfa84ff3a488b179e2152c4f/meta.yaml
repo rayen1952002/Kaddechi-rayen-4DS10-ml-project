@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/42a54376dfa84ff3a488b179e2152c4f/artifacts
+end_time: 1763239003485
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 42a54376dfa84ff3a488b179e2152c4f
+run_name: polite-bat-320
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239003475
+status: 3
+tags: []
+user_id: rayen

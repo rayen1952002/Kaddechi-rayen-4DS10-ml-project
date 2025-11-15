@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/8fd6f6b358594687aebf0cfc74ef4546/artifacts
+end_time: 1763239111291
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8fd6f6b358594687aebf0cfc74ef4546
+run_name: fearless-horse-381
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239107276
+status: 3
+tags: []
+user_id: rayen

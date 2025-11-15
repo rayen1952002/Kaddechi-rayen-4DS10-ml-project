@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/499ccbe91fc24a94a57c9a8557d7959e/artifacts
+end_time: 1763238300319
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 499ccbe91fc24a94a57c9a8557d7959e
+run_name: likeable-shrike-630
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763238300311
+status: 3
+tags: []
+user_id: rayen

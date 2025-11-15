@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/bee6721b28cb4ce1ae0dd5969cbb6099/artifacts
+end_time: 1763239153661
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bee6721b28cb4ce1ae0dd5969cbb6099
+run_name: bemused-ray-857
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239149092
+status: 3
+tags: []
+user_id: rayen

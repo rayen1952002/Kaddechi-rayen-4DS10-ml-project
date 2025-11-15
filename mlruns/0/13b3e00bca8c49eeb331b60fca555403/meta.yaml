@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/13b3e00bca8c49eeb331b60fca555403/artifacts
+end_time: 1763239107243
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 13b3e00bca8c49eeb331b60fca555403
+run_name: luminous-quail-280
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239103724
+status: 3
+tags: []
+user_id: rayen

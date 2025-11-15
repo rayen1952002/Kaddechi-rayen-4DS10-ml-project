@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/cedfc67bcf3f4406b80b156f2babc38b/artifacts
+end_time: 1763239427379
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cedfc67bcf3f4406b80b156f2babc38b
+run_name: amusing-snake-604
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239427368
+status: 3
+tags: []
+user_id: rayen

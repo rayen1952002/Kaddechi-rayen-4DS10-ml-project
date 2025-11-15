@@ -149,19 +149,43 @@ class DataProcessor:
     def get_data_summary(self) -> dict:
         """Get comprehensive data summary"""
         if not self._is_data_loaded:
-            return {}
-        
-        X, y = self.data
-        return {
-            'n_samples': X.shape[0],
-            'n_features': X.shape[1],
-            'feature_names': self.feature_names,
-            'target_distribution': {
-                'class_0': np.sum(y == 0),
-                'class_1': np.sum(y == 1),
-                'balance_ratio': np.sum(y == 1) / len(y)
+            return {
+                "status": "no_data",
+                "message": "No data loaded. Call generate_sample_data first."
             }
-        }
+        
+        try:
+            X, y = self.data
+            
+            # Convert numpy arrays to Python lists for JSON serialization
+            feature_stats = {}
+            if X.size > 0:
+                feature_stats = {
+                    'means': [float(x) for x in X.mean(axis=0)],
+                    'std_devs': [float(x) for x in X.std(axis=0)],
+                    'min_values': [float(x) for x in X.min(axis=0)],
+                    'max_values': [float(x) for x in X.max(axis=0)]
+                }
+            
+            summary = {
+                'n_samples': int(X.shape[0]),
+                'n_features': int(X.shape[1]),
+                'feature_names': self.feature_names,
+                'target_distribution': {
+                    'class_0': int(np.sum(y == 0)),
+                    'class_1': int(np.sum(y == 1)),
+                    'balance_ratio': float(np.sum(y == 1) / len(y)) if len(y) > 0 else 0
+                },
+                'feature_stats': feature_stats,
+                'model_trained': self._is_model_trained
+            }
+            
+            return summary
+        except Exception as e:
+            return {
+                "status": "error",
+                "message": f"Error generating summary: {str(e)}"
+            }
 
 def calculate_accuracy(y_true, y_pred):
     """Calculate accuracy score"""

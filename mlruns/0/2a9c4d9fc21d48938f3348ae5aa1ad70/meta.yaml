@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/2a9c4d9fc21d48938f3348ae5aa1ad70/artifacts
+end_time: 1763239516882
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a9c4d9fc21d48938f3348ae5aa1ad70
+run_name: crawling-bat-138
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239510116
+status: 3
+tags: []
+user_id: rayen

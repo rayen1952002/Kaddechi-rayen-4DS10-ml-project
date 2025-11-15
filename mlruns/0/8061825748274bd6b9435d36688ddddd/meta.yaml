@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/8061825748274bd6b9435d36688ddddd/artifacts
+end_time: 1763239449573
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8061825748274bd6b9435d36688ddddd
+run_name: adventurous-wren-233
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239444548
+status: 3
+tags: []
+user_id: rayen

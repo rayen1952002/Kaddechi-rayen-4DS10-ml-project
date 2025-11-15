@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/820e60176b324300996d220ebab44399/artifacts
+end_time: 1763239006190
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 820e60176b324300996d220ebab44399
+run_name: bittersweet-bird-96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239003503
+status: 3
+tags: []
+user_id: rayen

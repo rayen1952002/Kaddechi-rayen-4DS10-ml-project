@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/00972f0b757a43999e81f0ca71d2a1a6/artifacts
+end_time: 1763239077890
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 00972f0b757a43999e81f0ca71d2a1a6
+run_name: wise-panda-328
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239072147
+status: 3
+tags: []
+user_id: rayen

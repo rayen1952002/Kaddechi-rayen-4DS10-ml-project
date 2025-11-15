@@ -1,0 +1,14 @@
+artifact_uri: file:///home/rayen/Kaddechi-rayen-4DS10-ml_project/mlruns/0/7c85d2bb4b9247c2a011f563ac297fa0/artifacts
+end_time: 1763239103710
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c85d2bb4b9247c2a011f563ac297fa0
+run_name: rogue-stork-194
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763239100894
+status: 3
+tags: []
+user_id: rayen
